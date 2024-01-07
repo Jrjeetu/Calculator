@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Martel+Sans:wght@600&family=Poppins&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins";
+    background-color: black;
+}
+
+h1{
+    font-size: 900;
+    color: whitesmoke;
+}
+
+.button{
+    width: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(58, 55, 55);
+    color: white;
+}
+
+.row{
+    margin: 8px 0;
+}
+.row input{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.button:hover{
+    box-shadow: 0 0 5px rgb(231, 145, 32);
+}
+
+.prob{
+    background-color:rgb(231, 145, 32) ;
+    
+}
+
